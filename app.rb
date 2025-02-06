@@ -33,7 +33,7 @@ get("/multiply") do
   erb(:mult_form)
 end
 
-get("/wizard multiply") do
+get("/wizard_multiply") do
   @first_number = params.fetch("first_number").to_f
   @second_num = params.fetch("sec_number").to_f
 
